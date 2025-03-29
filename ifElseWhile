@@ -1,0 +1,16 @@
+#Ronald 'RJ' Parsell
+#ifElseWhile.py
+#The app checks if a student has made the deans list or 
+#honor roll depending on their GPA
+print("What is the student's last name?")
+lastName=input()
+while lastName != 'ZZZ':
+    print("What is the student's first name?")
+    firstName=input()
+    print("What is the student's GPA")
+    GPA = float(input())
+    if GPA >= 3.5:
+        print('The student has made the deans list')
+    if GPA >= 3.25:
+        print('The student has made the honor roll')
+    break
