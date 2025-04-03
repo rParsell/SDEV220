@@ -13,4 +13,3 @@ while lastName != 'ZZZ':
         print('The student has made the deans list')
     if GPA >= 3.25:
         print('The student has made the honor roll')
-    break
